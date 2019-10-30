@@ -1,0 +1,152 @@
+body { 
+	margin: 0; 
+	padding: 0; 
+	font-family: 'Red Hat Display', sans-serif;
+}
+h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 60px;
+	padding: 0px 0px 0px 10px;
+	margin: 0px;
+	background-color: #E6EBE0;
+}
+h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 40px;
+    margin: 0px 0px 0px 10px;
+}
+h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 5px;
+	font-size: 30px;
+}
+nav {
+	background-color: #20B2AA;
+	overflow: hidden;
+	color: #E6EBE0;
+}
+nav a{
+	float: left;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 20px;
+  	text-decoration: none;
+  	font-size: 25px;
+}
+/* Change the color of links on hover */
+nav a:hover {
+  	background-color: #E6EBE0;
+  	color: black;
+}
+hr {
+	border: 0;
+    border-top: 1px solid #E6EBE0;
+    margin: 20px 0;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.personal {
+	display: flex;
+	flex-direction: row;
+	background-color: #E6EBE0;
+}
+.personal_child p{
+	flex-grow: 1;
+	margin: 0px 0px 0px 20px;
+	font-size: 25px;
+
+}
+.personal_child img{
+	border-radius: 0% 50%;
+	padding: 0px 10px 10px 0px;
+	margin: 0px 0px 0px 10px;
+	background: #20B2AA;
+	height: 300px;
+	width: auto;
+}
+
+.job_info {
+	margin: 0px 0px 0px 0px;
+}
+.skills {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.skills_child {
+	width: 30%;
+	transition: background-color .3s linear;
+}
+.skills_child h3{
+	text-align: center;
+}
+.skills_child:hover {
+	background-color: #85D5D0;
+}
+
+.job_info p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.interest{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.interest-child{
+	width:45%;
+	transition: background-color .3s linear;
+}
+.interest-child h3{
+	text-align: center;
+}
+.interest-child p{
+	text-align: justify;
+}
+.interest-child:hover{
+	background-color: #85D5D0;
+}
+
+footer {
+	margin: 0px 0px 0px 10px;
+}
+.project {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: top;
+	transition: background-color .3s linear;
+	
+}
+.project:hover {
+	background-color: #85D5D0;
+}
+.project-child {
+	width: 50%;
+	padding-left: 10px
+}
+.project-child img, video {
+	margin-left: 40px;
+  	margin-right: auto;
+}
+
+.project-child p {
+	margin-top: 4px
+}
+.project-child-images{
+	float: left;
+  	width: 20%;
+  	padding: 5px;
+}
+.row{
+	content: "";
+  	clear: both;
+  	display: table;
+}
+.left-image{
+	padding-right: 0px;
+}
+
+
